@@ -56,39 +56,3 @@ Este trabajo implementa un servidor TCP concurrente en Python capaz de atender v
 
 La diferencia importante con un servidor secuencial es que aquí cada cliente no se atiende dentro del bucle principal, sino en un hilo separado. Eso permite que el servidor continúe aceptando nuevas conexiones mientras otros clientes siguen siendo procesados.
 
-## Cómo subir esta carpeta a GitHub
-
-1. Crea un repositorio nuevo en GitHub.
-2. Abre una terminal dentro de esta carpeta.
-3. Inicializa Git si todavía no existe:
-
-```powershell
-git init
-```
-
-4. Vincula tu repositorio remoto:
-
-```powershell
-git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-```
-
-5. Agrega todos los archivos:
-
-```powershell
-git add .
-```
-
-6. Crea el primer commit:
-
-```powershell
-git commit -m "Proyecto servidor concurrente TCP"
-```
-
-7. Sube la rama principal a GitHub:
-
-```powershell
-git branch -M main
-git push -u origin main
-```
-
-Si GitHub te pide autenticación, usa tu cuenta de GitHub o un token de acceso personal según la configuración que tengas.
